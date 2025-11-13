@@ -29,11 +29,16 @@ https://github.com/aleeSenai/Projeto-TCC---Assistente-de-IA-Automotiva
 
 🐋 Docker Hub:
 https://hub.docker.com/repositories/aleesenai
+
 docker pull aleesenai/ollama:latest
+
 docker pull aleesenai/tcc-springboot:latest
+
 docker compose up
 
 🔌 Endpoints da API: 
+
 Enviar uma pergunta para a IA
+
 GET http://localhost:8080/api/chat?message= sua pergunta
 
